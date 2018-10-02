@@ -84,8 +84,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p08_SpiralMatrix.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p08_SpiralMatrix.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p08_SpiralMatrix.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="61" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p09_DiagonalAttack.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/p09_DiagonalAttack.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="63" column="81" lean-forward="false" selection-start-line="63" selection-start-column="81" selection-end-line="63" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p10_Orbit.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/p10_Orbit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
@@ -114,6 +134,8 @@
         <option value="$PROJECT_DIR$/src/p06_SortArrayBy2Criteria.js" />
         <option value="$PROJECT_DIR$/src/p07_MagicMatrices.js" />
         <option value="$PROJECT_DIR$/src/p08_SpiralMatrix.js" />
+        <option value="$PROJECT_DIR$/src/p09_DiagonalAttack.js" />
+        <option value="$PROJECT_DIR$/src/p10_Orbit.js" />
       </list>
     </option>
   </component>
@@ -189,26 +211,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.p07_MagicMatrices.js">
-    <configuration name="p03_AddAndRemoveElements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p03_AddAndRemoveElements.js" working-dir="$PROJECT_DIR$/src" />
-    <configuration name="p04_RotateArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p04_RotateArray.js" working-dir="$PROJECT_DIR$/src" />
+  <component name="RunManager" selected="Node.js.p09_DiagonalAttack.js">
     <configuration name="p05_ExtractIncreasingSubsequenceFromArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p05_ExtractIncreasingSubsequenceFromArray.js" working-dir="$PROJECT_DIR$/src" />
     <configuration name="p06_SortArrayBy2Criteria.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p06_SortArrayBy2Criteria.js" working-dir="$PROJECT_DIR$/src" />
     <configuration name="p07_MagicMatrices.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p07_MagicMatrices.js" working-dir="$PROJECT_DIR$/src" />
+    <configuration name="p08_SpiralMatrix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p08_SpiralMatrix.js" working-dir="$PROJECT_DIR$/src" />
+    <configuration name="p09_DiagonalAttack.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p09_DiagonalAttack.js" working-dir="$PROJECT_DIR$/src" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.p03_AddAndRemoveElements.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.p04_RotateArray.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.p05_ExtractIncreasingSubsequenceFromArray.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.p06_SortArrayBy2Criteria.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.p07_MagicMatrices.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.p05_ExtractIncreasingSubsequenceFromArray.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.p06_SortArrayBy2Criteria.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.p07_MagicMatrices.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.p08_SpiralMatrix.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.p09_DiagonalAttack.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.p07_MagicMatrices.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.p06_SortArrayBy2Criteria.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.p05_ExtractIncreasingSubsequenceFromArray.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.p04_RotateArray.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.p03_AddAndRemoveElements.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.p09_DiagonalAttack.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.p08_SpiralMatrix.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.p07_MagicMatrices.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.p06_SortArrayBy2Criteria.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.p05_ExtractIncreasingSubsequenceFromArray.js" />
       </list>
     </recent_temporary>
   </component>
@@ -222,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538390401110</updated>
-      <workItem from="1538390402200" duration="10442000" />
+      <workItem from="1538390402200" duration="15211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10442000" />
+    <option name="totallyTimeSpent" value="15211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -259,7 +281,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -272,10 +294,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p04_RotateArray.js">
+    <entry file="file://$PROJECT_DIR$/src/p02_PrintEveryN-thElementFromAnArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -288,10 +310,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p02_PrintEveryN-thElementFromAnArray.js">
+    <entry file="file://$PROJECT_DIR$/src/p04_RotateArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="148">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -304,14 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p06_SortArrayBy2Criteria.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p07_MagicMatrices.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -320,7 +334,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/p06_SortArrayBy2Criteria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/p08_SpiralMatrix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="61" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p09_DiagonalAttack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="63" column="81" lean-forward="false" selection-start-line="63" selection-start-column="81" selection-end-line="63" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p10_Orbit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
