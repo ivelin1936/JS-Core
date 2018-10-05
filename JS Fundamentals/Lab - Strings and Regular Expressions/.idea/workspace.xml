@@ -14,36 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="p02_ConcatenateAndReverse.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/p02_ConcatenateAndReverse.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p03_CountOccurences.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/p03_CountOccurences.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p04_ExtractText.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/p04_ExtractText.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="p05_AggregateTable.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p05_AggregateTable.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p07_Usernames.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p07_Usernames.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p07_Usernames.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -107,8 +77,38 @@
       <file leaf-file-name="p11_ExpressionSplit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p11_ExpressionSplit.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p12_MatchDates.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/p12_MatchDates.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p13_EmployeeData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/p13_EmployeeData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p14_FormFiller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/p14_FormFiller.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -135,8 +135,11 @@
         <option value="$PROJECT_DIR$/src/p08_Censorship.js" />
         <option value="$PROJECT_DIR$/src/p09_MatchAllWords.js" />
         <option value="$PROJECT_DIR$/src/p10_EmailValidation.js" />
-        <option value="$PROJECT_DIR$/src/p11_ExpressionSplit.js" />
         <option value="$PROJECT_DIR$/src/p07_Usernames.js" />
+        <option value="$PROJECT_DIR$/src/p11_ExpressionSplit.js" />
+        <option value="$PROJECT_DIR$/src/p12_MatchDates.js" />
+        <option value="$PROJECT_DIR$/src/p13_EmployeeData.js" />
+        <option value="$PROJECT_DIR$/src/p14_FormFiller.js" />
       </list>
     </option>
   </component>
@@ -212,26 +215,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.p10_EmailValidation.js">
-    <configuration name="p06_RestaurantBill.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p06_RestaurantBill.js" working-dir="$PROJECT_DIR$/src" />
-    <configuration name="p07_Usernames.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p07_Usernames.js" working-dir="$PROJECT_DIR$/src" />
-    <configuration name="p08_Censorship.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p08_Censorship.js" working-dir="$PROJECT_DIR$/src" />
+  <component name="RunManager" selected="Node.js.p13_EmployeeData.js">
     <configuration name="p09_MatchAllWords.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p09_MatchAllWords.js" working-dir="$PROJECT_DIR$/src" />
     <configuration name="p10_EmailValidation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p10_EmailValidation.js" working-dir="$PROJECT_DIR$/src" />
+    <configuration name="p11_ExpressionSplit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p11_ExpressionSplit.js" working-dir="$PROJECT_DIR$/src" />
+    <configuration name="p12_MatchDates.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p12_MatchDates.js" working-dir="$PROJECT_DIR$/src" />
+    <configuration name="p13_EmployeeData.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p13_EmployeeData.js" working-dir="$PROJECT_DIR$/src" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.p06_RestaurantBill.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.p07_Usernames.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.p08_Censorship.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.p09_MatchAllWords.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.p10_EmailValidation.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.p09_MatchAllWords.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.p10_EmailValidation.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.p11_ExpressionSplit.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.p12_MatchDates.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.p13_EmployeeData.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.p10_EmailValidation.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.p09_MatchAllWords.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.p08_Censorship.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.p07_Usernames.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.p06_RestaurantBill.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.p13_EmployeeData.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.p12_MatchDates.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.p11_ExpressionSplit.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.p10_EmailValidation.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.p09_MatchAllWords.js" />
       </list>
     </recent_temporary>
   </component>
@@ -245,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538569659108</updated>
-      <workItem from="1538569661074" duration="17919000" />
+      <workItem from="1538569661074" duration="26817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17919000" />
+    <option name="totallyTimeSpent" value="26817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -260,7 +263,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -282,7 +285,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -335,22 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p10_EmailValidation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p11_ExpressionSplit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p09_MatchAllWords.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -371,6 +358,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p10_EmailValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p11_ExpressionSplit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p12_MatchDates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p13_EmployeeData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p14_FormFiller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
         </state>
       </provider>
