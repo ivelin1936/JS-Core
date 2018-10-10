@@ -14,12 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="p01_TravelPlans.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p01_TravelPlans.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p01_TravelPlans.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1394">
               <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p02_TravelInvestigation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/p02_TravelInvestigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="e#180#352#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,6 +49,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/p01_TravelPlans.js" />
+        <option value="$PROJECT_DIR$/src/p02_TravelInvestigation.js" />
       </list>
     </option>
   </component>
@@ -112,11 +125,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.p01_TravelPlans.js">
+  <component name="RunManager" selected="Node.js.p02_TravelInvestigation.js">
     <configuration name="p01_TravelPlans.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p01_TravelPlans.js" working-dir="$PROJECT_DIR$/src" />
+    <configuration name="p02_TravelInvestigation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p02_TravelInvestigation.js" working-dir="$PROJECT_DIR$/src" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.p01_TravelPlans.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.p02_TravelInvestigation.js" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.p01_TravelPlans.js" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.p02_TravelInvestigation.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.p01_TravelPlans.js" />
       </list>
     </recent_temporary>
   </component>
@@ -130,12 +149,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539164861962</updated>
-      <workItem from="1539164863082" duration="5477000" />
+      <workItem from="1539164863082" duration="10278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5477000" />
+    <option name="totallyTimeSpent" value="10278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -167,7 +186,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -177,6 +196,16 @@
         <state relative-caret-position="1394">
           <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p02_TravelInvestigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#180#352#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
