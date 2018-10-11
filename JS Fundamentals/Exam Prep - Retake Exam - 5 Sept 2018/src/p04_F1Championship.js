@@ -16,7 +16,7 @@ function championShip(input) {
             return acc;
         }, {});
 
-    let sortedTeamsByTotalPt =
+    let sortedTeams =
         [...Object.entries(champinShipData)]
             .sort((t1, t2) => t2[1].totalPoints - t1[1].totalPoints)
             .splice(0, 3)
@@ -32,7 +32,7 @@ function championShip(input) {
                 return teamResult.trim();
             });
 
-    console.log(sortedTeamsByTotalPt.join("\n"));
+    console.log(sortedTeams.join("\n"));
 }
 
 championShip([
