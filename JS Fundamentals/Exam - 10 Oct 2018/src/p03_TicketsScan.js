@@ -1,41 +1,52 @@
-function scan(str, infoForPrint) {
-    let passangerNamePatter = /\s(([A-Z][a-zA-Z]*)-([A-Z][a-zA-Z]*)(\.-([A-Z][a-zA-Z]+))?)\s/gm;
-    let airportPattern = /\s([A-Z]{3}\/[A-Z]{3})\s/gm;
-    let flightNumPattern = /\s([A-Z]{1,3}[0-9]{1,5})\s/gm;
-    let companyPattern = /-\s[A-Z][a-zA-Z]*\*[A-Z][a-zA-Z]*\s/gm;
+function scanTicket(str, infoForPrint) {
+    const nameRegex = /\s(([A-Z][a-zA-Z]*)-([A-Z][a-zA-Z]*)(\.-([A-Z][a-zA-Z]+))?)\s/g;
+    const airportRegex = /\s([A-Z]{3}\/[A-Z]{3})\s/g;
+    const flightNumRegex = /\s([A-Z]{1,3}\d{1,5})\s/g;
+    const companyRegex = /-\s[A-Z][a-zA-Z]*\*[A-Z][a-zA-Z]*\s/g;
 
-    if (infoForPrint === 'name') {
-        let passangerName = str.match(passangerNamePatter)[0].trim().replace(/-/g, " ");
-        console.log(`Mr/Ms, ${passangerName}, have a nice flight!`);
+    const printer = {
+        name:
+            `Mr/Ms, ${getName()}, have a nice flight!`,
+        flight:
+            `Your flight number ${getFlightNum()} is from ${getAirports()[0]} to ${getAirports()[1]}.`,
+        company:
+            `Have a nice flight with ${getCompany()}.`,
+        all:
+        `Mr/Ms, ${getName()}, your flight number ${getFlightNum()} `
+            + `is from ${getAirports()[0]} to ${getAirports()[1]}. `
+            + `Have a nice flight with ${getCompany()}.`
+    };
+
+    if (printer[infoForPrint]) {
+        console.log(printer[infoForPrint]);
     }
-    if (infoForPrint === 'flight') {
-        let airportMatch = str.match(airportPattern)[0].trim();
-        let fromAirport = airportMatch.split('/')[0];
-        let toAirport = airportMatch.split('/')[1];
-        let flightNum = str.match(flightNumPattern)[0].trim();
-        console.log(`Your flight number ${flightNum} is from ${fromAirport} to ${toAirport}.`);
+
+    function getName() {
+        return str.match(nameRegex)[0].trim().replace(/-/g, " ");
     }
-    if (infoForPrint === 'company') {
-        let company = str.match(companyPattern)[0].trim().replace(/-/g, '').replace(/\*/g, ' ').trim();
-        console.log(`Have a nice flight with ${company}.`);
+
+    function getFlightNum() {
+        return str.match(flightNumRegex)[0].trim();
     }
-    if (infoForPrint === 'all') {
-        let passangerName = str.match(passangerNamePatter)[0].trim().replace(/-/g, " ");
-        let airportMatch = str.match(airportPattern)[0].trim();
-        let fromAirport = airportMatch.split('/')[0];
-        let toAirport = airportMatch.split('/')[1];
-        let flightNum = str.match(flightNumPattern)[0].trim();
-        let company = str.match(companyPattern)[0].trim().replace(/-/g, '').replace(/\*/g, ' ').trim();
-        console.log(`Mr/Ms, ${passangerName}, your flight number ${flightNum} is from ${fromAirport} to ${toAirport}. Have a nice flight with ${company}.`);
+
+    function getAirports() {
+        return str.match(airportRegex)[0].trim().split('/');
+    }
+
+    function getCompany() {
+        return str.match(companyRegex)[0].trim()
+            .replace(/-/g, '')
+            .replace(/\*/g, ' ')
+            .trim();
     }
 }
 
-scan(
+scanTicket(
     'ahah Second-Testov )*))&&ba SOF/VAR ela** FB973 - Bulgaria*Air -opFB900 pa-SOF/VAr//_- T12G12 STD08:45  STA09:35 ',
     'all'
 );
 console.log('*'.repeat(40));
-scan(
+scanTicket(
     ' TEST-T.-TESTOV   SOF/VIE OS806 - Austrian*Airlines T24G55 STD11:15 STA11:50 ',
     'flight'
 );

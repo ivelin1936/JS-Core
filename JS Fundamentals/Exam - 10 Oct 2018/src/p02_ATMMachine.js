@@ -1,62 +1,54 @@
 function solve(input) {
     let atm = [];
     input.forEach(row => {
-        let rowLength = row.length;
-        if (rowLength > 2) {
-            insert(row);
-        } else if (rowLength === 2) {
-            //If the command array length is 2 -
-            // Withdraw money from the ATM.
-            withdrawMoney(row);
-        } else if (rowLength === 1) {
-            //If the command array length is 1 -
-            // Report the count of a given banknote in the ATM:
-            serviceReport(row[0]);
+        if (row.length > 2) {
+            console.log(insertMoneyInToATM(row));
+        } else if (row.length === 2) {
+            console.log(withdrawMoneyFromATM(row));
+        } else if (row.length === 1) {
+            console.log(serviceReport(row[0]));
         }
-
     });
 
-    function serviceReport(value) {
-        let banknoteCount = atm.filter(b => b === value).length;
-
-        console.log(`Service Report: Banknotes from ${value}$: ${banknoteCount}.`);
+    function serviceReport(valueType) {
+        let banknoteCount = atm.filter(b => b === valueType).length;
+        return `Service Report: Banknotes from ${valueType}$: ${banknoteCount}.`;
     }
 
-    function withdrawMoney(tokens) {
-        let currentAccBalance = tokens[0];
-        let moneyToWithdraw = tokens[1];
+    function withdrawMoneyFromATM(tokens) {
+        let [currentAccBalance, SumForWithdraw] = tokens;
         let atmMoney = atm.length > 0 ? atm.reduce((a, b) => a + b) : 0;
 
-        if (currentAccBalance < moneyToWithdraw) {
-            console.log(`Not enough money in your account. Account balance: ${currentAccBalance}$.`);
-        } else if (atmMoney < moneyToWithdraw) {
-            console.log(`ATM machine is out of order!`);
+        if (currentAccBalance < SumForWithdraw) {
+            return `Not enough money in your account. Account balance: ${currentAccBalance}$.`;
+        } else if (atmMoney < SumForWithdraw) {
+            return `ATM machine is out of order!`;
         } else {
-            atm.sort((a,b) => { return b - a});
-            let totalSum = moneyToWithdraw;
-            while (totalSum !== 0) {
-                let index = 0;
-                for (let i = 0; i < atm.length; i++) {
-                    if (atm[i] <= totalSum) {
-                        totalSum -= atm[i];
-                        index = i;
-                        break;
-                    }
-                }
-                atm.splice(index, 1);
-            }
-
-            console.log(`You get ${moneyToWithdraw}$. Account balance: ${currentAccBalance - moneyToWithdraw}$. Thank you!`);
+            withdraw(+SumForWithdraw);
+            return `You get ${SumForWithdraw}$. Account balance: ${currentAccBalance - SumForWithdraw}$. Thank you!`;
         }
     }
 
-    function insert(banknotesArr) {
-        banknotesArr.forEach(banknote => atm.push(banknote));
+    function withdraw(moneyToWithdraw) {
+        atm.sort((a,b) => { return b - a });
+        while (moneyToWithdraw !== 0) {
+            let index = 0;
+            for (let i = 0; i < atm.length; i++) {
+                if (atm[i] <= moneyToWithdraw) {
+                    moneyToWithdraw -= atm[i];
+                    index = i;
+                    break;
+                }
+            }
+            atm.splice(index, 1);
+        }
+    }
 
-        let insertedCash = banknotesArr.reduce((a, b) => a + b);
-        let totalCashInATM = atm.reduce((a, b) => a + b);
-
-        console.log(`Service Report: ${insertedCash}$ inserted. Current balance: ${totalCashInATM}$.`);
+    function insertMoneyInToATM(incomeMoney) {
+        atm.push(...incomeMoney);
+        let insertedCash = incomeMoney.reduce((a, b) => a + b, 0);
+        let totalCashInATM = atm.reduce((a, b) => a + b, 0);
+        return `Service Report: ${insertedCash}$ inserted. Current balance: ${totalCashInATM}$.`;
     }
 }
 
