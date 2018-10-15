@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Countdown </title>
+</head>
+<body>
+<input type="text" id="time" style="border:3px solid blue; text-align:center; font-size:2em;" disabled="true"/>
+<script>window.onload = function () {
+    countdown(600);
+};
+
+function countdown(inputSeconds) {
+    let minutes = parseInt(inputSeconds / 60);
+    let seconds = inputSeconds % 60;
+
+    let timer = document.getElementById('time');
+    timer.value = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+
+    let intervalID = setInterval(changeTime, 1000);
+
+    function changeTime() {
+        if (seconds === 0 && minutes === 0) {
+            clearInterval(intervalID);
+        } else {
+            if (seconds === 0) {
+                minutes--;
+                seconds = 60;
+            }
+            seconds--;
+        }
+
+        timer.value = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+    }
+}
+</script>
+</body>
+</html>
