@@ -4,6 +4,10 @@
       <meta charset="UTF-8">
       <title>Snake</title>
         <style>
+            body
+            {
+                background-color: gray;
+            }
             table
             {
                 border-collapse: collapse;
@@ -20,7 +24,10 @@
             }
             .food
             {
-                background-color: greenyellow;
+                background-image: url("resources/burger2.gif");
+                background-color: greenyellow; /* Used if the image is unavailable */
+                /*background-position: center; !* Center the image *!*/
+                background-size: cover; /* Resize the background image to cover the entire container */
             }
         </style>
     </head>
@@ -34,7 +41,7 @@
         snakeGame.createGame({
             boardSize: 20,
             snakeSize: 3,
-            playerName: "Ivo",
+            playerName: "Player",
             speed: 300
         });
 
