@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Snake</title>
-        <style>
-            body
-            {
-                background-color: gray;
-            }
-            table
-            {
-                border-collapse: collapse;
-            }
-            td
-            {
-                width: 20px;
-                height: 20px;
-                background-color: black;
-            }
-            .snake
-            {
-                background-color: white;
-            }
-            .food
-            {
-                background-image: url("resources/burger2.gif");
-                background-color: greenyellow; /* Used if the image is unavailable */
-                /*background-position: center; !* Center the image *!*/
-                background-size: cover; /* Resize the background image to cover the entire container */
-            }
-        </style>
-    </head>
-    <body>
-    <h2 id="score">Score: 0</h2>
-    <div id="game"></div>
-    <script src="scripts/snake.js"></script>
-    <script src="scripts/gameBoard.js"></script>
-    <script src="scripts/snakeGame.js"></script>
-    <script>
-        snakeGame.createGame({
-            boardSize: 20,
-            snakeSize: 3,
-            playerName: "Player",
-            speed: 300
-        });
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 20px;
+            height: 20px;
+            background-color: black;
+        }
+
+        .snake {
+            background-color: white;
+        }
+
+        .food {
+            background-image: url("resources/burger2.gif");
+            background-color: greenyellow; /* Used if the image is unavailable */
+            background-size: cover; /* Resize the background image to cover the entire container */
+        }
+
+        .playButton {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            width: 100px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+<h2>
+    <a id="player"></a>
+    <a id="score">Score: 0</a>
+</h2>
+<form id="nameForm">
+    <input type="text" id="playerName" value="Player"/>
+    <input type="button" class="playButton" value="Play" onclick="startGame()"/>
+</form>
+<br/>
+<div id="game"></div>
+<script src="scripts/snake.js"></script>
+<script src="scripts/gameBoard.js"></script>
+<script src="scripts/snakeGame.js"></script>
+<script>
+    snakeGame.createGame({
+        boardSize: 20,
+        snakeSize: 3,
+        playerName: "Player",
+        speed: 300
+    });
+
+    function startGame() {
+        const playerName = document.getElementById("playerName").value;
+        document.getElementById("player").textContent = playerName;
+
+//        document.getElementById("nameForm").innerHTML = "";
+        let nameForm = document.getElementById("nameForm");
+        nameForm.parentNode.removeChild(nameForm);
 
         snakeGame.start();
-    </script>
-    </body>
+    }
+</script>
+</body>
 </html>
