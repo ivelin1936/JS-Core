@@ -14,11 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="timeConverter.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timeConverter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p06_TimeConverter/timeConverter.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="986">
               <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distanceConverter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p07_DistanceConverter/distanceConverter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="distanceConverter.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p07_DistanceConverter/distanceConverter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1014">
+              <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -57,6 +77,8 @@
         <option value="$PROJECT_DIR$/p05_Notification/notification.html" />
         <option value="$PROJECT_DIR$/p06_TimeConverter/timeConverter.html" />
         <option value="$PROJECT_DIR$/p06_TimeConverter/timeConverter.js" />
+        <option value="$PROJECT_DIR$/p07_DistanceConverter/distanceConverter.html" />
+        <option value="$PROJECT_DIR$/p07_DistanceConverter/distanceConverter.js" />
       </list>
     </option>
   </component>
@@ -73,7 +95,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1930" />
     <option name="height" value="1038" />
@@ -115,6 +137,11 @@
               <item name="Exercises - DOM Manipulation" type="462c0819:PsiDirectoryNode" />
               <item name="p06_TimeConverter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Exercises - DOM Manipulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercises - DOM Manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="p07_DistanceConverter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -143,31 +170,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.timeConverter.html">
+  <component name="RunManager" selected="JavaScript Debug.distanceConverter.html">
     <configuration name="accordion.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Exercises - DOM Manipulation/p03_Accordion/accordion.html" />
-    <configuration name="dropdown.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Exercises - DOM Manipulation/p02_FillDropdown/dropdown.html" />
+    <configuration name="distanceConverter.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Exercises - DOM Manipulation/p07_DistanceConverter/distanceConverter.html" />
     <configuration name="notification.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Exercises - DOM Manipulation/p05_Notification/notification.html" />
     <configuration name="sections.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Exercises - DOM Manipulation/p04_Sections/sections.html" />
     <configuration name="timeConverter.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Exercises - DOM Manipulation/p06_TimeConverter/timeConverter.html" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dropdown.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.accordion.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.sections.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.notification.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.timeConverter.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.accordion.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sections.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.notification.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.timeConverter.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.distanceConverter.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.timeConverter.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.notification.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.sections.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.accordion.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.dropdown.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.distanceConverter.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.timeConverter.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.notification.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.sections.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.accordion.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -176,15 +206,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539863926844</updated>
-      <workItem from="1539863928803" duration="8306000" />
+      <workItem from="1539863928803" duration="11471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8306000" />
+    <option name="totallyTimeSpent" value="11471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -280,6 +310,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/p06_TimeConverter/timeConverter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/p06_TimeConverter/timeConverter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1833">
@@ -288,10 +326,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p06_TimeConverter/timeConverter.html">
+    <entry file="file://$PROJECT_DIR$/p07_DistanceConverter/distanceConverter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="335">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p07_DistanceConverter/distanceConverter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
           <folding />
         </state>
       </provider>
