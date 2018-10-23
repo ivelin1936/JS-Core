@@ -27,8 +27,18 @@
       <file leaf-file-name="incrementCounter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p01_IncrementCounter/incrementCounter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="363">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p02_Timer/timer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -39,16 +49,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="timer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p02_Timer/timer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -77,29 +77,42 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p04_FormValidation/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formValidation.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="formValidation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p04_FormValidation/formValidation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="664">
+              <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p04_FormValidation/index.html">
+      <file leaf-file-name="dom-search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p05_DOMSearch/dom-search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+            <state relative-caret-position="562">
+              <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dom-search.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p05_DOMSearch/dom-search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1540303682568" expanded="true" signature="1602:2557" ph="..." />
+                <marker date="1540303682568" expanded="true" signature="1721:1743" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +137,8 @@
         <option value="$PROJECT_DIR$/p04_FormValidation/index.html" />
         <option value="$PROJECT_DIR$/p02_Timer/timer.js" />
         <option value="$PROJECT_DIR$/p04_FormValidation/formValidation.js" />
+        <option value="$PROJECT_DIR$/p05_DOMSearch/dom-search.html" />
+        <option value="$PROJECT_DIR$/p05_DOMSearch/dom-search.js" />
       </list>
     </option>
   </component>
@@ -189,6 +204,11 @@
               <item name="Exercises - jQuery Library" type="462c0819:PsiDirectoryNode" />
               <item name="p04_FormValidation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Exercises - jQuery Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercises - jQuery Library" type="462c0819:PsiDirectoryNode" />
+              <item name="p05_DOMSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -221,26 +241,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.incrementCounter.html">
+  <component name="RunManager" selected="JavaScript Debug.dom-search.html">
     <configuration name="book-generator.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercises - jQuery Library/p03_BookGenerator/book-generator.html" />
+    <configuration name="dom-search.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercises - jQuery Library/p05_DOMSearch/dom-search.html" />
     <configuration name="incrementCounter.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercises - jQuery Library/p01_IncrementCounter/incrementCounter.html" />
-    <configuration name="incrementCounter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="incrementCounter.js" working-dir="$PROJECT_DIR$/p01_IncrementCounter" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercises - jQuery Library/p04_FormValidation/index.html" />
     <configuration name="timer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercises - jQuery Library/p02_Timer/timer.html" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.incrementCounter.html" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.incrementCounter.js" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.timer.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.book-generator.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.timer.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.book-generator.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.dom-search.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.incrementCounter.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.timer.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.book-generator.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.incrementCounter.js" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dom-search.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.incrementCounter.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.timer.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.book-generator.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -254,12 +274,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540208978478</updated>
-      <workItem from="1540208980555" duration="31098000" />
+      <workItem from="1540208980555" duration="41941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31098000" />
+    <option name="totallyTimeSpent" value="41941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -296,42 +316,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/p04_FormValidation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/p02_Timer/timer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p02_Timer/timer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p01_IncrementCounter/incrementCounter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p01_IncrementCounter/incrementCounter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p03_BookGenerator/book-generator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -344,27 +340,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p04_FormValidation/index.html">
+    <entry file="file://$PROJECT_DIR$/p01_IncrementCounter/incrementCounter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        <state relative-caret-position="363">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p01_IncrementCounter/incrementCounter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p02_Timer/timer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p03_BookGenerator/book-generator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/p04_FormValidation/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/p04_FormValidation/formValidation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="664">
+          <caret line="119" column="28" lean-forward="false" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p05_DOMSearch/dom-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p05_DOMSearch/dom-search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1540303682568" expanded="true" signature="1602:2557" ph="..." />
+            <marker date="1540303682568" expanded="true" signature="1721:1743" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
