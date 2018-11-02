@@ -37,11 +37,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharLookup.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CharLookup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p03_CharLookup/CharLookup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="507">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathEnforcer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p04_MathEnforcer/MathEnforcer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SharedObject.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p05_SharedObject/SharedObject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shared-object.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p05_SharedObject/shared-object.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -53,6 +83,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,7 +93,11 @@
         <option value="$PROJECT_DIR$/p01_RequestValidator/Request-Validator-Tests.js" />
         <option value="$PROJECT_DIR$/p01_RequestValidator/RequestValidator.js" />
         <option value="$PROJECT_DIR$/p02_EvenOrOdd/EvenOrOdd.js" />
+        <option value="$PROJECT_DIR$/p03_CharLookup/CharLookupTests.js" />
         <option value="$PROJECT_DIR$/p03_CharLookup/CharLookup.js" />
+        <option value="$PROJECT_DIR$/p04_MathEnforcer/MathEnforcer.js" />
+        <option value="$PROJECT_DIR$/p05_SharedObject/shared-object.html" />
+        <option value="$PROJECT_DIR$/p05_SharedObject/SharedObject.js" />
       </list>
     </option>
   </component>
@@ -112,12 +147,27 @@
             <path>
               <item name="Exercises - Unit Testing with Mocha and Error Handling" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercises - Unit Testing with Mocha and Error Handling" type="462c0819:PsiDirectoryNode" />
+              <item name="p01_RequestValidator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exercises - Unit Testing with Mocha and Error Handling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercises - Unit Testing with Mocha and Error Handling" type="462c0819:PsiDirectoryNode" />
               <item name="p02_EvenOrOdd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exercises - Unit Testing with Mocha and Error Handling" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercises - Unit Testing with Mocha and Error Handling" type="462c0819:PsiDirectoryNode" />
               <item name="p03_CharLookup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exercises - Unit Testing with Mocha and Error Handling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercises - Unit Testing with Mocha and Error Handling" type="462c0819:PsiDirectoryNode" />
+              <item name="p04_MathEnforcer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Exercises - Unit Testing with Mocha and Error Handling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercises - Unit Testing with Mocha and Error Handling" type="462c0819:PsiDirectoryNode" />
+              <item name="p05_SharedObject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,6 +187,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/p02_EvenOrOdd/EvenOrOdd.js" />
     <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.EvenOrOdd-Tests">
+  <component name="RunManager" selected="Mocha.sharedObject">
     <configuration name="DemoTests" type="mocha-javascript-test-runner" factoryName="Mocha">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -173,18 +224,99 @@
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/p02_EvenOrOdd/EvenOrOdd.js</test-file>
     </configuration>
-    <configuration name="EvenOrOdd.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="EvenOrOdd.js" working-dir="$PROJECT_DIR$/p02_EvenOrOdd" />
-    <configuration name="RequestValidator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="RequestValidator.js" working-dir="$PROJECT_DIR$/p01_RequestValidator" />
-    <list size="4">
+    <configuration name="sharedObject" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/p05_SharedObject/SharedObject.js</test-file>
+      <test-names>
+        <name value="sharedObject" />
+      </test-names>
+    </configuration>
+    <configuration name="sharedObject.Test if all required properties exist" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/p05_SharedObject/SharedObject.js</test-file>
+      <test-names>
+        <name value="sharedObject" />
+        <name value="Test if all required properties exist" />
+      </test-names>
+    </configuration>
+    <configuration name="sharedObject.Test if all required properties exist.should have property updateIncome" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/p05_SharedObject/SharedObject.js</test-file>
+      <test-names>
+        <name value="sharedObject" />
+        <name value="Test if all required properties exist" />
+        <name value="should have property updateIncome" />
+      </test-names>
+    </configuration>
+    <configuration name="sharedObject.Test name and income properties.Income property should start with null value" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/p05_SharedObject/SharedObject.js</test-file>
+      <test-names>
+        <name value="sharedObject" />
+        <name value="Test name and income properties" />
+        <name value="Income property should start with null value" />
+      </test-names>
+    </configuration>
+    <configuration name="sharedObject.Test name and income properties.Name property should start with null value" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/p05_SharedObject/SharedObject.js</test-file>
+      <test-names>
+        <name value="sharedObject" />
+        <name value="Test name and income properties" />
+        <name value="Name property should start with null value" />
+      </test-names>
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Mocha.EvenOrOdd-Tests" />
       <item index="1" class="java.lang.String" itemvalue="Mocha.DemoTests" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.RequestValidator.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.EvenOrOdd.js" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.sharedObject.Test name and income properties.Name property should start with null value" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.sharedObject.Test name and income properties.Income property should start with null value" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.sharedObject.Test if all required properties exist" />
+      <item index="5" class="java.lang.String" itemvalue="Mocha.sharedObject.Test if all required properties exist.should have property updateIncome" />
+      <item index="6" class="java.lang.String" itemvalue="Mocha.sharedObject" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.EvenOrOdd.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.RequestValidator.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.sharedObject" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.sharedObject.Test if all required properties exist" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.sharedObject.Test if all required properties exist.should have property updateIncome" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.sharedObject.Test name and income properties.Income property should start with null value" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.sharedObject.Test name and income properties.Name property should start with null value" />
       </list>
     </recent_temporary>
   </component>
@@ -198,44 +330,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541073920313</updated>
-      <workItem from="1541073922341" duration="8012000" />
+      <workItem from="1541073922341" duration="15937000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 34m 13s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject - 2018.11.02 at 13h 02m 52s.xml">
+      <configuration name="sharedObject" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 35m 36s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject - 2018.11.02 at 13h 05m 03s.xml">
+      <configuration name="sharedObject" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 36m 44s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject - 2018.11.02 at 13h 05m 14s.xml">
+      <configuration name="sharedObject" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 38m 43s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject - 2018.11.02 at 13h 08m 27s.xml">
+      <configuration name="sharedObject" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 39m 23s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject_Test_if_all_required_properties_exist - 2018.11.02 at 13h 01m 15s.xml">
+      <configuration name="sharedObject.Test if all required properties exist" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 40m 54s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject_Test_if_all_required_properties_exist - 2018.11.02 at 13h 05m 38s.xml">
+      <configuration name="sharedObject.Test if all required properties exist" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 41m 27s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject_Test_if_all_required_properties_exist_should_have_property_updateIncome - 2018.11.02 at 13h 01m 38s.xml">
+      <configuration name="sharedObject.Test if all required properties exist.should have property updateIncome" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 44m 08s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject_Test_name_and_income_properties_Income_property_should_start_with_null_value - 2018.11.02 at 12h 58m 37s.xml">
+      <configuration name="sharedObject.Test name and income properties.Income property should start with null value" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 55m 25s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject_Test_name_and_income_properties_Name_property_should_start_with_null_value - 2018.11.02 at 12h 57m 53s.xml">
+      <configuration name="sharedObject.Test name and income properties.Name property should start with null value" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="EvenOrOdd-Tests - 2018.11.01 at 15h 57m 54s.xml">
-      <configuration name="EvenOrOdd-Tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sharedObject_Test_name_and_income_properties_Name_property_should_start_with_null_value - 2018.11.02 at 12h 58m 14s.xml">
+      <configuration name="sharedObject.Test name and income properties.Name property should start with null value" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8012000" />
+    <option name="totallyTimeSpent" value="15937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -245,7 +377,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -268,7 +400,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -297,10 +429,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/p03_CharLookup/CharLookupTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/p03_CharLookup/CharLookup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="507">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p04_MathEnforcer/MathEnforcer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p05_SharedObject/shared-object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p05_SharedObject/SharedObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="175" column="7" lean-forward="true" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
           <folding />
         </state>
       </provider>
