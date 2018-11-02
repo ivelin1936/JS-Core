@@ -41,6 +41,12 @@ let sharedObject = {
 /** UNIT TESTING */
 let expect = require("chai").expect;
 let assert = require("chai").assert;
+// let $ = require("jquery");
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+const { window } = new JSDOM(`...`);
+let $ = require('jquery')(window);
+
 
 describe("sharedObject", function () {
     //Before every test do...
