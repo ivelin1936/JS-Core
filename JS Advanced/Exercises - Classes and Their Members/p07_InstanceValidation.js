@@ -1,42 +1,59 @@
 class CheckingAccount {
     constructor(clientId, email, firstName, lastName ) {
-        this._clientId = clientId;
-        this._email = email;
-        this._firstName = firstName;
-        this._lastName = lastName;
+        this.clientId = clientId;
+        this.email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    set _clientId(id) {
-        if (!(/^[0-9]{6}$/g).test(id)) {
+    set clientId(id) {
+        let clientIdPattern = /^\d{6}$/g;
+        if (!clientIdPattern.test(id)) {
             throw new TypeError('Client ID must be a 6-digit number');
         }
-        this.clientId = id;
+        this._clientId = id;
     }
 
-    set _email(email) {
+    get clientId() {
+        return this._clientId;
+    }
+
+    set email(email) {
         let emailPattern = /^[A-Za-z0-9]+@[A-Za-z]+(\.[A-Za-z]+)*$/g;
         if (!emailPattern.test(email)) {
             throw new TypeError('Invalid e-mail');
         }
-        this.email = email;
+        this._email = email;
     }
 
-    set _firstName(name) {
+    get email() {
+        return this._email;
+    }
+
+    set firstName(name) {
         if (!CheckingAccount._isValidNameLength(name)) {
             throw new TypeError('First name must be between 3 and 20 characters long');
         } else if (!CheckingAccount._isValidNameLetters(name)) {
             throw new TypeError('First name must contain only Latin characters');
         }
-        this.firstName = name;
+        this._firstName = name;
     }
 
-    set _lastName(name) {
+    get firstName() {
+        return this._firstName;
+    }
+
+    set lastName(name) {
         if (!CheckingAccount._isValidNameLength(name)) {
             throw new TypeError('Last name must be between 3 and 20 characters long');
         } else if (!CheckingAccount._isValidNameLetters(name)) {
             throw new TypeError('Last name must contain only Latin characters');
         }
-        this.lastName = name;
+        this._lastName = name;
+    }
+
+    get lastName() {
+        return this._lastName;
     }
 
     static _isValidNameLength(name) {
