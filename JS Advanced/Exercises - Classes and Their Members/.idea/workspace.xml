@@ -64,8 +64,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p06_SortedList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p06_SortedList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p06_SortedList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p07_InstanceValidation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/p07_InstanceValidation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p08_ViewModel.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p08_ViewModel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -92,6 +112,8 @@
         <option value="$PROJECT_DIR$/p04_LengthLimit.js" />
         <option value="$PROJECT_DIR$/p05_ExtensibleClass.js" />
         <option value="$PROJECT_DIR$/p06_SortedList.js" />
+        <option value="$PROJECT_DIR$/p07_InstanceValidation.js" />
+        <option value="$PROJECT_DIR$/p08_ViewModel.js" />
       </list>
     </option>
   </component>
@@ -162,23 +184,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.p04_LengthLimit.js">
+  <component name="RunManager" selected="Node.js.p07_InstanceValidation.js">
     <configuration name="p01_DataClass.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p01_DataClass.js" working-dir="$PROJECT_DIR$" />
     <configuration name="p02_Tickets.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p02_Tickets.js" working-dir="$PROJECT_DIR$" />
     <configuration name="p03_Unity.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p03_Unity.js" working-dir="$PROJECT_DIR$" />
     <configuration name="p04_LengthLimit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p04_LengthLimit.js" working-dir="$PROJECT_DIR$" />
-    <list size="4">
+    <configuration name="p07_InstanceValidation.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="p07_InstanceValidation.js" working-dir="$PROJECT_DIR$" />
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.p01_DataClass.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.p02_Tickets.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.p03_Unity.js" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.p04_LengthLimit.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.p07_InstanceValidation.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.p04_LengthLimit.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.p03_Unity.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.p02_Tickets.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.p01_DataClass.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.p07_InstanceValidation.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.p04_LengthLimit.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.p03_Unity.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.p02_Tickets.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.p01_DataClass.js" />
       </list>
     </recent_temporary>
   </component>
@@ -192,12 +217,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541278013016</updated>
-      <workItem from="1541278015087" duration="6798000" />
+      <workItem from="1541278015087" duration="10780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6798000" />
+    <option name="totallyTimeSpent" value="10780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -229,7 +254,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -275,6 +300,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/p06_SortedList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p07_InstanceValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p08_ViewModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
