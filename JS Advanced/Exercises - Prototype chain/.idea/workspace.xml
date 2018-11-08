@@ -37,7 +37,7 @@
       <file leaf-file-name="p03_Posts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p03_Posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="1786">
               <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding />
             </state>
@@ -54,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p05_C#Console.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p05_C#Console.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p05_C#Console.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1802">
               <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p06_Computer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/p06_Computer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -81,6 +91,7 @@
         <option value="$PROJECT_DIR$/p03_Posts.js" />
         <option value="$PROJECT_DIR$/p04_TheElemelons.js" />
         <option value="$PROJECT_DIR$/p05_C#Console.js" />
+        <option value="$PROJECT_DIR$/p06_Computer.js" />
       </list>
     </option>
   </component>
@@ -272,7 +283,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541668709801</updated>
-      <workItem from="1541668711795" duration="9977000" />
+      <workItem from="1541668711795" duration="11827000" />
     </task>
     <servers />
   </component>
@@ -309,7 +320,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9977000" />
+    <option name="totallyTimeSpent" value="11827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -346,14 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/p03_Posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/p01_Balloons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1498">
@@ -370,6 +373,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/p05_C#Console.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p03_Posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/p04_TheElemelons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -378,10 +397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p05_C#Console.js">
+    <entry file="file://$PROJECT_DIR$/p06_Computer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+        <state relative-caret-position="426">
+          <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
           <folding />
         </state>
       </provider>
