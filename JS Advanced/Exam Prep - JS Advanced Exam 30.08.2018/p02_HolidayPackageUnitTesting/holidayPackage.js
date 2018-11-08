@@ -62,7 +62,7 @@ describe('HolidayPackage class Tests', function () {
     beforeEach(function () {
         holidayPackage = new HolidayPackage('Plovdiv', 'Summer');
     });
-    
+
     //Not needed for Judge
     describe('Test the instantiated holidayPackage', () => {
         //Not needed for Judge
