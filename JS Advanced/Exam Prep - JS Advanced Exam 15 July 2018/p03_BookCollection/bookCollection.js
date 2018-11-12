@@ -78,26 +78,24 @@ class BookCollection {
     }
 }
 
-let livingRoom = new BookCollection("Programming", "livingRoom");
-livingRoom.showBooks('programming');
-// let livingRoom = new BookCollection("Programming", "livingRoom", 5);
-// livingRoom.addBook("Introduction to Programming with C#", "Svetlin Nakov");
-// livingRoom.addBook("Introduction to Programming with Java", "Svetlin Nakov");
-// livingRoom.addBook("Programming for .NET Framework", "Svetlin Nakov");
-// console.log(livingRoom.toString());
-// livingRoom.throwAwayBook('Introduction to Programming with C#');
-// console.log(livingRoom.toString());
-//
-// try {
-//     let garden = new BookCollection("Programming", "garden");
-// } catch (ex) {
-//     console.log(ex.message);
-// }
-//
-// let bedRoom = new BookCollection('Mixed', 'bedRoom', 5);
-// bedRoom.addBook("John Adams", "David McCullough", "history");
-// bedRoom.addBook("The Guns of August", "Cuentos para pensar", "history");
-// bedRoom.addBook("Atlas of Remote Islands", "Judith Schalansky");
-// bedRoom.addBook("Paddle-to-the-Sea", "Holling Clancy Holling");
-// console.log("Shelf's capacity: " + bedRoom.shelfCondition);
-// console.log(bedRoom.showBooks("history"));
+let livingRoom = new BookCollection("Programming", "livingRoom", 5);
+livingRoom.addBook("Introduction to Programming with C#", "Svetlin Nakov");
+livingRoom.addBook("Introduction to Programming with Java", "Svetlin Nakov");
+livingRoom.addBook("Programming for .NET Framework", "Svetlin Nakov");
+console.log(livingRoom.toString());
+livingRoom.throwAwayBook('Introduction to Programming with C#');
+console.log(livingRoom.toString());
+
+try {
+    let garden = new BookCollection("Programming", "garden");
+} catch (ex) {
+    console.log(ex.message);
+}
+
+let bedRoom = new BookCollection('Mixed', 'bedRoom', 5);
+bedRoom.addBook("John Adams", "David McCullough", "history");
+bedRoom.addBook("The Guns of August", "Cuentos para pensar", "history");
+bedRoom.addBook("Atlas of Remote Islands", "Judith Schalansky");
+bedRoom.addBook("Paddle-to-the-Sea", "Holling Clancy Holling");
+console.log("Shelf's capacity: " + bedRoom.shelfCondition);
+console.log(bedRoom.showBooks("history"));
