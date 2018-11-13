@@ -1,7 +1,7 @@
 class BookCollection {
     constructor(shelfGenre, room, shelfCapacity) {
-        this.shelfGenre = shelfGenre;
         this.room = room;
+        this.shelfGenre = shelfGenre;
         this.shelfCapacity = +shelfCapacity;
         this.shelf = [];
     }
@@ -18,10 +18,6 @@ class BookCollection {
         return this._room;
     }
 
-    get shelfCondition() {
-        return this.shelfCapacity - this.shelf.length;
-    }
-
     addBook(bookName, bookAuthor, genre = '') {
         if (this.shelf.length === this.shelfCapacity) {
             this.shelf.shift();
@@ -32,13 +28,11 @@ class BookCollection {
             bookAuthor: bookAuthor,
             genre: genre
         };
-        //Genre is optional
-        // if (genre !== '') {
-        //     newBook.genre = genre;
-        // }
 
         this.shelf.push(newBook);
         this._sortAlphabeticallyShelf();
+
+        return this;
     }
 
     _sortAlphabeticallyShelf() {
@@ -48,6 +42,7 @@ class BookCollection {
     }
 
     throwAwayBook(bookName) {
+        // this.shelf = this.shelf.filter(x => x.bookName !== bookName);
         const elementIndex =
             this.shelf
                 .map(e => e.bookName)
@@ -65,6 +60,10 @@ class BookCollection {
             .join('\n');
 
         return `Results for search "${genre}":\n${searchedBooks}`;
+    }
+
+    get shelfCondition() {
+        return this.shelfCapacity - this.shelf.length;
     }
 
     toString() {
