@@ -9,6 +9,7 @@ function attachEvents() {
 
     $loadBtn.on('click', loadPhoneBooks);
     $createBtn.on('click', submitData);
+    $('#btnRefresh').on('click', () => { $phonebook.empty() });
 
     function submitData() {
         if ($personInput.val().trim() !== '' && $phoneInput.val().trim() !== '') {
@@ -33,7 +34,7 @@ function attachEvents() {
                 Object.keys(data)
                     .forEach(key => {
                         $phonebook.append($(`<li>${data[key].person}: ${data[key].phone} </li>`)
-                            .append($(`<button>[Delete]</button>`)
+                            .append($(`<button class="btn btn-xs btn-danger">Delete</button>`)
                                 .on('click', () => deleteData(key)))
                         );
                     })
