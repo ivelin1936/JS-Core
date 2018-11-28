@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countries & Towns</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <div id="navbar" class="navbar-collapse collapse">
+        <form class="navbar-form navbar-right">
+            <strong>Add New Item:</strong>
+            <div class="form-group">
+                <input type="text" placeholder="Country" class="form-control" id="countryInp">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="City" class="form-control" id="cityInp">
+            </div>
+            <button type="submit" class="btn btn-success" id="addDataBtn">Add</button>
+        </form>
+    </div>
+
+    <div class="list-group" id="countriesContainer">
+        <a href="#" class="list-group-item active">Countries List</a>
+    </div>
+</div>
+</body>
+<script src="scripts.js"></script>
+<script>$(loadData())</script>
+</html>

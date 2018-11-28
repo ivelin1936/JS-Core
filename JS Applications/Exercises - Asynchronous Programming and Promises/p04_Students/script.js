@@ -21,11 +21,11 @@
         for (let student of data) {
             $('#results')
                 .append($('<tr data-id="${student._id}">')
-                    .append(`<th class="id">${student.ID}</th>`)
-                    .append(`<th class="firstName">${student.FirstName}</th>`)
-                    .append(`<th class="lastName">${student.LastName}</th>`)
-                    .append(`<th class="facultyNumber">${student.FacultyNumber}</th>`)
-                    .append(`<th class="grade">${student.Grade}</th>`));
+                    .append(`<td class="id">${student.ID}</td>`)
+                    .append(`<td class="firstName">${student.FirstName}</td>`)
+                    .append(`<td class="lastName">${student.LastName}</td>`)
+                    .append(`<td class="facultyNumber">${student.FacultyNumber}</td>`)
+                    .append(`<td class="grade">${student.Grade}</td>`));
         }
     }
 })();
