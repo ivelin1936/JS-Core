@@ -89,6 +89,7 @@ function loadData() {
                     );
             }
         }
+        townsList.append($('<br>'));
 
         div.find('#deleteBtn').click(deleteCity);
         div.find('#editBtn').click(editCity);
@@ -103,7 +104,9 @@ function loadData() {
     }
 
     function editCity() {
-        const dataId = $(this).parent().attr('data-id');
+        $(this).unbind("click");
+        let $listItem = $(this).parent();
+        const dataId = $listItem.attr('data-id');
 
         const inp = $(`<span id="editContainer"><br>
                 <input type="text" placeholder="New country name (required)" class="form-control" id="countryEditInp">
@@ -115,16 +118,17 @@ function loadData() {
 
         inp.find('#backBtn').click((e) => {
             $(e.target).parent().remove();
-            $(this).parent().attr('class', 'list-group-item list-group-item-info');
+            $(this).click(editCity);
+            $listItem.attr('class', 'list-group-item list-group-item-info');
         });
 
         inp.find('#updateBtn').click(() => {
             updateData(dataId)
         });
 
-        $(this).parent().attr('class', 'list-group-item list-group-item-danger');
+        $listItem.attr('class', 'list-group-item list-group-item-danger');
 
-        inp.insertAfter($(this).parent());
+        inp.insertAfter($listItem);
     }
 
     function updateData(dataId) {

@@ -112,13 +112,13 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/p05_Countries&amp;Towns/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="117" column="80" lean-forward="false" selection-start-line="117" selection-start-column="80" selection-end-line="117" selection-end-column="80" />
+            <state relative-caret-position="30">
+              <caret line="110" column="52" lean-forward="false" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
               <folding>
-                <marker date="1543490968739" expanded="true" signature="2722:2734" ph="..." />
-                <marker date="1543490968739" expanded="true" signature="2863:2875" ph="..." />
-                <marker date="1543490968739" expanded="true" signature="2940:5351" ph="..." />
-                <marker date="1543490968739" expanded="true" signature="3357:3835" ph="..." />
+                <marker date="1543492568271" expanded="true" signature="2722:2734" ph="..." />
+                <marker date="1543492568271" expanded="true" signature="2863:2875" ph="..." />
+                <marker date="1543492568271" expanded="true" signature="2977:5472" ph="..." />
+                <marker date="1543492568271" expanded="true" signature="3462:3940" ph="..." />
               </folding>
             </state>
           </provider>
@@ -176,7 +176,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1930" />
     <option name="height" value="1038" />
@@ -290,15 +290,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543234810020</updated>
-      <workItem from="1543234811192" duration="56771000" />
+      <workItem from="1543234811192" duration="58346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56771000" />
+    <option name="totallyTimeSpent" value="58346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -427,13 +427,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p05_Countries&amp;Towns/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="117" column="80" lean-forward="false" selection-start-line="117" selection-start-column="80" selection-end-line="117" selection-end-column="80" />
+        <state relative-caret-position="30">
+          <caret line="110" column="52" lean-forward="false" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
           <folding>
-            <marker date="1543490968739" expanded="true" signature="2722:2734" ph="..." />
-            <marker date="1543490968739" expanded="true" signature="2863:2875" ph="..." />
-            <marker date="1543490968739" expanded="true" signature="2940:5351" ph="..." />
-            <marker date="1543490968739" expanded="true" signature="3357:3835" ph="..." />
+            <marker date="1543492568271" expanded="true" signature="2722:2734" ph="..." />
+            <marker date="1543492568271" expanded="true" signature="2863:2875" ph="..." />
+            <marker date="1543492568271" expanded="true" signature="2977:5472" ph="..." />
+            <marker date="1543492568271" expanded="true" signature="3462:3940" ph="..." />
           </folding>
         </state>
       </provider>
