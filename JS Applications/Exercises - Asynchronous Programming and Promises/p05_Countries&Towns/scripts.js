@@ -47,12 +47,12 @@ function loadData() {
         let $div = $('#countriesContainer');
         $div.empty();
 
-        const contries = data
+        const countries = data
             .map(d => d.country)
             .sort((a, b) => a.localeCompare(b));
 
         $div.append($(`<a href="#" class="list-group-item active">Countries List</a>`));
-        for (let countryName of new Set(contries)) {
+        for (let countryName of new Set(countries)) {
             $div.append(
                 $(`<a href="#" class="list-group-item">${countryName}</a>`)
                     .click(renderTowns))
@@ -72,6 +72,10 @@ function loadData() {
             headers: {
                 Authorization: kinveyAuthorization
             }
+        });
+
+        townsData.sort((a, b) => {
+            return a.town.localeCompare(b.town)
         });
 
         let townsList = $(div.find('#list-group-towns').prevObject[0]);
@@ -101,21 +105,25 @@ function loadData() {
     function editCity() {
         const dataId = $(this).parent().attr('data-id');
 
-        const inp = $(`<span id="editContainer">
-                <input type="text" placeholder="New Country" class="form-control" id="countryEditInp">
-                <input type="text" placeholder="New City" class="form-control" id="cityEditInp">
+        const inp = $(`<span id="editContainer"><br>
+                <input type="text" placeholder="New country name (required)" class="form-control" id="countryEditInp">
+                <input type="text" placeholder="New city name (required)" class="form-control" id="cityEditInp">
+                <br>
                 <button type="submit" class="btn btn-sm btn-success" id="updateBtn">Update</button>
                 <button type="submit" class="btn btn-sm btn-info" id="backBtn">Back</button>
-            </span>`);
+            <br><br></span>`);
 
         inp.find('#backBtn').click((e) => {
             $(e.target).parent().remove();
+            $(this).parent().attr('class', 'list-group-item list-group-item-info');
         });
 
         inp.find('#updateBtn').click(() => {
             updateData(dataId)
         });
-        
+
+        $(this).parent().attr('class', 'list-group-item list-group-item-danger');
+
         inp.insertAfter($(this).parent());
     }
 
