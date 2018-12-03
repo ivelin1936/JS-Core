@@ -83,9 +83,10 @@ function loadData() {
         for (let t of townsData) {
             if (t.country === countryName) {
                 townsList
-                    .append($(`<li data-id="${t._id}" class="list-group-item list-group-item-info">${t.town} </li>`)
-                        .append($(`<button id="deleteBtn" type="button" class="btn btn-sm btn-danger" style="float: right">Delete</button>`))
-                        .append($(`<button id="editBtn" type="button" class="btn btn-sm btn-warning" style="float: right">Edit</button>`))
+                    .append($(`<li data-id="${t._id}" class="list-group-item list-group-item-info clearfix"><span style="position:absolute; top:30%;">${t.town}</span></li>`)
+                        .append($(`<span class="pull-right button-group">`)
+                            .append(`<button type="button" id="editBtn" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-edit"></span> Edit</button>`)
+                            .append(`<button type="button" id="deleteBtn" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-remove"></span> Delete</button>`))
                     );
             }
         }
@@ -105,7 +106,7 @@ function loadData() {
 
     function editCity() {
         $(this).unbind("click");
-        let $listItem = $(this).parent();
+        let $listItem = $(this).parent().parent();
         const dataId = $listItem.attr('data-id');
 
         const inp = $(`<span id="editContainer"><br>
@@ -119,14 +120,14 @@ function loadData() {
         inp.find('#backBtn').click((e) => {
             $(e.target).parent().remove();
             $(this).click(editCity);
-            $listItem.attr('class', 'list-group-item list-group-item-info');
+            $listItem.attr('class', 'list-group-item list-group-item-info clearfix');
         });
 
         inp.find('#updateBtn').click(() => {
             updateData(dataId)
         });
 
-        $listItem.attr('class', 'list-group-item list-group-item-danger');
+        $listItem.attr('class', 'list-group-item list-group-item-danger clearfix');
 
         inp.insertAfter($listItem);
     }
@@ -155,7 +156,7 @@ function loadData() {
                 .then(loadData);
         }
     }
-    
+
     function deleteCity() {
         const dataId = $(this).parent().attr('data-id');
 
