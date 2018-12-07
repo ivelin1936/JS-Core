@@ -18,6 +18,10 @@
         return requester.update('appdata', 'teams/' + teamId, 'kinvey', teamData);
     }
 
+    function deleteTeam(teamId) {
+        return requester.remove('appdata', 'teams/' + teamId, 'kinvey');
+    }
+
     function createTeam(name, comment) {
         let teamData = {
             name: name,
@@ -51,6 +55,7 @@
         loadTeams,
         loadTeamDetails,
         edit,
+        deleteTeam,
         createTeam,
         joinTeam,
         leaveTeam

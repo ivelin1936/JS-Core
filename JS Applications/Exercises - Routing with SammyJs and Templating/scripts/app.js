@@ -4,148 +4,37 @@ $(() => {
         this.use('Handlebars', 'hbs');
 
         /** add listeners */
-        this.get('/index.html', renderHomePage);
-        this.get('#/home', renderHomePage);
-        this.get('#/about', renderAboutPage);
-        this.get('#/login', renderLoginPage);
-        this.get('#/register', renderRegisterPage);
+        //home listeners
+        this.get('/index.html', homeController.renderHomePage);
+        this.get('#/home', homeController.renderHomePage);
 
-        /** Post listener on register */
-        this.post('#/register', function (context) {
-            const username = this.params.username;
-            const password = this.params.password;
-            const repeatPassword = this.params.repeatPassword;
+        //about listeners
+        this.get('#/about', aboutController.renderAboutPage);
 
-            password !== repeatPassword
-                ? auth.showError(`The given password doesn't matched!`)
-                : auth.register(username, password)
-                    .then(function (response) {
-                        auth.saveSession(response);
-                        auth.showInfo(`You was register successfully!`);
+        //user listeners - login/logout
+        this.get('#/login', userController.renderLoginPage);
+        this.post('#/login', userController.login);
+        this.get('#/logout', userController.logout);
 
-                        renderHomePage(context);
-                    })
-                    .catch(auth.handleError);
-        });
+        //register listeners
+        this.get('#/register', registerController.renderRegisterPage);
+        this.post('#/register', registerController.createRegistration);
 
-        /** Post listener on login */
-        this.post('#/login', function (context) {
-            const username = this.params.username;
-            const password = this.params.password;
+        //catalog listeners
+        this.get('#/catalog', catalogController.showCatalog);
+        this.get('#/catalog/:_id', teamController.showTeamDetails);
+        this.get('#/catalog/myTeam/:_id', teamController.showMyTeamDetails);
 
-            auth.login(username, password)
-                .then(function (response) {
-                    auth.saveSession(response);
-                    auth.showInfo("You logged successfully!");
+        //team listeners
+        this.get('#/join/:teamId', teamController.joinTeam);
+        this.get('#/leave', teamController.leaveTeam);
+        this.get('#/delete/:teamId', teamController.deleteTeam);
+        this.get('#/edit/:teamId', teamController.renderEdit);
+        this.post('#/edit/:teamId', teamController.edit);
 
-                    renderHomePage(context);
-                }).catch(auth.handleError);
-        });
-
-        /** Get listener on logout*/
-        this.get('#/logout', function (context) {
-            auth.logout()
-                .then(function () {
-                    sessionStorage.clear();
-                    auth.showInfo(`Successfully logged out!`);
-                    renderHomePage(context);
-                })
-        });
-
-        /** Get listener on catalog*/
-        this.get('#/catalog', showCatalog);
-
-        /** Get listener on create (in catalog) and Render Create Template/Partial*/
-        this.get('#/create', function (context) {
-            context.loggedIn = sessionStorage.getItem('authtoken') !== null;
-            context.username = sessionStorage.getItem('username');
-
-            this.loadPartials({
-                header: './templates/common/header.hbs',
-                footer: './templates/common/footer.hbs',
-                createForm: './templates/create/createForm.hbs'
-            }).then(function () {
-                this.partial('./templates/create/createPage.hbs');
-            })
-        });
-
-        /** Load and Render Catalog Template/Partial */
-        function showCatalog(context) {
-            context.loggedIn = sessionStorage.getItem('authtoken') !== null;
-            context.username = sessionStorage.getItem('username');
-            context.teamId = sessionStorage.getItem('teamId') !== 'undefined'
-                || sessionStorage.getItem('teamId') !== null;
-            context.hasNoTeam = sessionStorage.getItem('teamId') !== null;
-
-            this.loadPartials({
-                header: './templates/common/header.hbs',
-                footer: './templates/common/footer.hbs',
-                team: './templates/catalog/team.hbs'
-            }).then(function () {
-                teamsService.loadTeams()
-                    .then((respons) => {
-                        context.teams = respons;
-                        this.partial('./templates/catalog/teamCatalog.hbs');
-                    });
-            })
-        }
-
-        /** Load and Render Register Template/Partial */
-        function renderRegisterPage(context) {
-            context.loggetIn = sessionStorage.getItem('authtoken') !== null;
-            context.username = sessionStorage.getItem('username');
-
-            this.loadPartials({
-                header: './templates/common/header.hbs',
-                footer: './templates/common/footer.hbs',
-                registerForm: './templates/register/registerForm.hbs'
-            }).then(function () {
-                this.partial('./templates/register/registerPage.hbs');
-            });
-        }
-
-        /** Load and Render Login Template/Partial */
-        function renderLoginPage(context) {
-            context.loggetIn = sessionStorage.getItem('authtoken') !== null;
-            context.username = sessionStorage.getItem('username');
-
-            this.loadPartials({
-                header: './templates/common/header.hbs',
-                footer: './templates/common/footer.hbs',
-                loginForm: './templates/login/loginForm.hbs'
-            }).then(function () {
-                this.partial('./templates/login//loginPage.hbs');
-            });
-        }
-
-        /** Load and Render About Template/Partial */
-        function renderAboutPage(context) {
-            context.loggetIn = sessionStorage.getItem('authtoken') !== null;
-            context.username = sessionStorage.getItem('username');
-
-            this.loadPartials({
-                header: './templates/common/header.hbs',
-                footer: './templates/common/footer.hbs'
-            }).then(function () {
-                this.partial('./templates/about/about.hbs');
-            });
-        }
-
-        /** Load and Render Home Template/Partial */
-        function renderHomePage(context) {
-            context.loggedIn = sessionStorage.getItem('authtoken') !== null;
-            context.username = sessionStorage.getItem('username');
-            context.teamId = sessionStorage.getItem('teamId') !== 'undefined'
-                || sessionStorage.getItem('teamId') !== null;
-
-            context.loadPartials({
-                header: './templates/common/header.hbs',
-                footer: './templates/common/footer.hbs',
-            }).then(function () {
-                this.partial('./templates/home/home.hbs');
-            });
-        }
-
+        // /create team listeners
+        this.get('#/create', teamController.renderCreate);
+        this.post('#/create', teamController.createTeam);
     });
 
     app.run();

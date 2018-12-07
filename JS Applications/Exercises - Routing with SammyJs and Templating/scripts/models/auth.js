@@ -38,6 +38,11 @@
         return requester.post('user', '_logout', 'kinvey', logoutData);
     }
 
+    // get all users
+    function getUsers() {
+        return requester.get('user', '', 'kinvey');
+    }
+
     function handleError(reason) {
         showError(reason.responseJSON.description);
     }
@@ -63,6 +68,7 @@
         saveSession,
         showInfo,
         showError,
-        handleError
+        handleError,
+        getUsers
     }
 })();
