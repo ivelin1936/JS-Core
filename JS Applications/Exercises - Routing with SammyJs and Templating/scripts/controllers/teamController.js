@@ -43,10 +43,9 @@
 
         teamsService.deleteTeam(teamId)
             .then(function (res) {
-                sessionStorage.setItem('teamId', 'undefined');
                 auth.showInfo(`The team was successfully deleted!`);
+                leaveTeam(context);
                 context.redirect('#/catalog');
-
             }).catch(auth.handleError);
     }
 
@@ -55,6 +54,11 @@
         const teamId = sessionStorage.getItem('teamId');
         const name = context.params.name;
         const description = context.params.comment;
+
+        if (name.trim() === ''){
+            auth.showError(`Team name cannot be empty`);
+            return;
+        }
 
         teamsService.edit(teamId, name, description)
             .then(function (res) {
@@ -97,7 +101,7 @@
         }
     }
 
-    /** Fn for Get listener on leave ( the team ) */
+    /** Fn for Get listener on leave ( team ) */
     function leaveTeam(context) {
         teamsService.leaveTeam()
             .then(function (res) {
@@ -117,10 +121,15 @@
             const name = this.params.name;
             const comment = this.params.comment;
 
+            if (name.trim() === ''){
+                auth.showError(`Team name cannot be empty`);
+                return;
+            }
+
             teamsService.createTeam(name, comment)
-                .then(function (respond) {
+                .then(function (response) {
                     auth.showInfo(`Team ${name} was successfully created!`);
-                    const teamId = respond._id;
+                    const teamId = response._id;
 
                     teamsService.joinTeam(teamId)
                         .then(function (res) {
@@ -133,7 +142,7 @@
         }
     }
 
-    /** Fn for Get listener on create (in catalog) and Render Create Template/Partial*/
+    /** Fn for Get listener on create (in catalog) Render Create Template/Partial*/
     function renderCreate(context) {
         context.loggedIn = sessionStorage.getItem('authtoken') !== null;
         context.username = sessionStorage.getItem('username');

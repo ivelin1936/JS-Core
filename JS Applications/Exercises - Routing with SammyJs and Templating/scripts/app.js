@@ -28,9 +28,9 @@ $(() => {
         //team listeners
         this.get('#/join/:teamId', teamController.joinTeam);
         this.get('#/leave', teamController.leaveTeam);
-        this.get('#/delete/:teamId', teamController.deleteTeam);
         this.get('#/edit/:teamId', teamController.renderEdit);
         this.post('#/edit/:teamId', teamController.edit);
+        this.get('#/delete/:teamId', teamController.deleteTeam);
 
         // /create team listeners
         this.get('#/create', teamController.renderCreate);
