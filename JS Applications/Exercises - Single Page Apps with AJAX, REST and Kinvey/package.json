@@ -1,0 +1,8 @@
+{
+  "name": "Exercises - Single Page Apps with AJAX, REST and Kinvey",
+  "version": "0.0.1",
+  "dependencies": {
+    "handlebars": "^4.0.12",
+    "jquery": "^3.3.1"
+  }
+}

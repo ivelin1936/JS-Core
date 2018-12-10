@@ -1,0 +1,13 @@
+<div class="ad-box">
+    <div class="title" data-id="{{_id}}">
+        {{title}}
+        {{#if isAuthor}}
+            <button class="ad-control delete" data-target="viewAds">&#10006</button>
+            <button class="ad-control edit" data-target="viewEditAd">&#9998</button>
+        {{/if}}
+    </div>
+    <div>
+        <img src="{{imageUrl}}"/>
+    </div>
+    <div> Price: {{price}} | By {{publisher}}</div>
+</div>
