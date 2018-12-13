@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airline Administration</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<div id="container"></div>
+
+<div id="notifications">
+    <div id="loadingBox" class="notification">
+        <span>Loading …</span>
+    </div>
+    <div id="infoBox" class="notification">
+        <span>Info</span>
+    </div>
+    <div id="errorBox" class="notification">
+        <span>Error</span>
+    </div>
+</div>
+
+
+    <!-- Load libs -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="node_modules/sammy/lib/min/sammy-0.7.6.min.js"></script>
+    <script src="node_modules/sammy/lib/min/plugins/sammy.handlebars-0.7.6.min.js"></script>
+    <!-- Load app models scrips -->
+    <script src="scripts/models/requester.js"></script>
+    <script src="scripts/models/userModel.js"></script>
+    <script src="scripts/models/flightsModel.js"></script>
+    <!-- Load app utils scrips -->
+    <script src="scripts/utils/handler.js"></script>
+    <script src="scripts/utils/validator.js"></script>
+    <!-- Load app controllers scrips -->
+    <script src="scripts/controllers/viewController.js"></script>
+    <script src="scripts/controllers/userController.js"></script>
+    <script src="scripts/controllers/flightsController.js"></script>
+    <!-- Load app -->
+    <script src="scripts/app.js"></script>
+</body>
+</html>
