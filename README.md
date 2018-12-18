@@ -19,7 +19,7 @@ Ivelin Dimitrov
 </tbody>
 </table>
 
-# Description
+<h1># Description</h1>
 
 ### [JS Fundamentals:](https://github.com/ivelin1936/JS-Core/tree/master/JS%20Fundamentals)
   - 
