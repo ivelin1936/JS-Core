@@ -19,3 +19,38 @@ Ivelin Dimitrov
 </tbody>
 </table>
 
+# Description
+
+### [JS Fundamentals:](https://github.com/ivelin1936/JS-Core/tree/master/JS%20Fundamentals)
+  - 
+  - 
+  - 
+  -
+  
+### [JS Advanced:](https://github.com/ivelin1936/JS-Core/tree/master/JS%20Advanced)
+  - 
+  - 
+  - 
+  - 
+  
+### [JS Applications:](https://github.com/ivelin1936/JS-Core/tree/master/JS%20Applications)
+  - 
+  - 
+  - 
+  - 
+
+## Technologies
+
+* JavaScript / ECMAScript 6   
+
+## IDE 
+
+* WebStorm - [JetBrains](https://www.jetbrains.com/webstorm/)
+
+## Author
+
+**Ivelin DImitrov** - [ivelin1936](https://github.com/ivelin1936)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
