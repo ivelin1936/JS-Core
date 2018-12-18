@@ -24,18 +24,12 @@ Ivelin Dimitrov
 ### [JS Fundamentals:](https://github.com/ivelin1936/JS-Core/tree/master/JS%20Fundamentals)
   - 
   - 
-  - 
-  -
   
 ### [JS Advanced:](https://github.com/ivelin1936/JS-Core/tree/master/JS%20Advanced)
   - 
   - 
-  - 
-  - 
   
 ### [JS Applications:](https://github.com/ivelin1936/JS-Core/tree/master/JS%20Applications)
-  - 
-  - 
   - 
   - 
 
@@ -49,7 +43,7 @@ Ivelin Dimitrov
 
 ## Author
 
-**Ivelin DImitrov** - [ivelin1936](https://github.com/ivelin1936)
+**Ivelin Dimitrov** - [ivelin1936](https://github.com/ivelin1936)
 
 ## License
 
